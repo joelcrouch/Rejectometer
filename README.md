@@ -7,26 +7,28 @@ Predicts organ transplant rejection risk using patient and donor data, leveragin
 Before training the model, ensure the data is prepared properly for machine learning. Here’s how to approach this:
 Key Steps:
 
-    Feature Selection: Choose the relevant features that might influence transplant rejection. These might include:
-        Patient Features: Age, gender, disease (e.g., renal failure), medical history, etc.
-        Donor Features: Age, cause of death, organ type, etc.
-        Transplant Details: Immunosuppressive drugs (e.g., cyclosporine), transplant date.
-        Genetic Data (if available, e.g., HLA matching).
-        Rejection Data: Previous rejection history (if available), time to rejection, etc.
-    After researching there will definitely be more.  
-    
-    Encoding Categorical Variables:
-        Categorical variables (e.g., gender, cause of death, organ type, etc.) will need to be encoded into numerical values.  Use techniques like One-Hot Encoding or Label Encoding.
-        For example:
-            Gender: "Male" -> 0, "Female" -> 1
-            Cause of Death: "Motorcycle Crash" -> 0, "Stroke" -> 1, etc.
+Feature Selection: Choose the relevant features that might influence transplant rejection. These might include:
+    Patient Features: Age, gender, disease (e.g., renal failure), medical history, etc.
+    Donor Features: Age, cause of death, organ type, etc.
+    Transplant Details: Immunosuppressive drugs (e.g., cyclosporine), transplant date.
+    Genetic Data (if available, e.g., HLA matching).
+    Rejection Data: Previous rejection history (if available), time to rejection, etc.
+After researching there will definitely be more.  
 
-    Handling Missing Values:
-        Don't forger, you will need to decide how to handle missing data. Some common strategies include imputing missing values (e.g., using the mean, median, or using a more complex imputation technique like KNN imputation).
-        Alternatively, if a feature has too many missing values, maybe choose to drop it from the dataset.
+Encoding Categorical Variables:
+    Categorical variables (e.g., gender, cause of death, organ type, etc.) will need to be encoded into numerical values.  Use techniques like One-Hot Encoding or Label Encoding.
+    For example:
+        Gender: "Male" -> 0, "Female" -> 1
+        Cause of Death: "Motorcycle Crash" -> 0, "Stroke" -> 1, etc.
 
-    Scaling/Normalization:
-        Some features (e.g., age, survival time) may need to be scaled so that their range doesn’t dominate other variables. Checke out StandardScaler or MinMaxScaler for this.
+Handling Missing Values:
+    Don't forger, you will need to decide how to handle missing data. Some common strategies include imputing missing values (e.g., using the mean, median, or using a more complex imputation technique like KNN imputation).
+    Alternatively, if a feature has too many missing values, maybe choose to drop it from the dataset.
+
+Scaling/Normalization:
+    Some features (e.g., age, survival time) may need to be scaled so that their range doesn’t dominate other variables. Checke out StandardScaler or MinMaxScaler for this.
+
+   
 
 2. Feature Example with Data
 
