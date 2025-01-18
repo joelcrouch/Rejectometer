@@ -71,6 +71,7 @@ Addressing Imbalanced Data: If you have an imbalanced dataset (e.g., rejection e
 6. Deployment
 
 Once you have a well-performing model, you can deploy it using a variety of methods:
+API Deployment: Expose your model via a RESTful API (using Flask, FastAPI, etc.) for real-time predictions.
+Integration with Medical Systems: Integrate the model into clinical workflows for predicting rejection probabilities for new patients.
 
-    API Deployment: Expose your model via a RESTful API (using Flask, FastAPI, etc.) for real-time predictions.
-    Integration with Medical Systems: Integrate the model into clinical workflows for predicting rejection probabilities for new patients.
+   
