@@ -63,9 +63,10 @@ You’ll want to evaluate how well the model is performing, which can be done us
 You may also want to evaluate the model’s performance on unseen data (i.e., using the test set or through cross-validation).
 5. Improving the Model
 
-    Hyperparameter Tuning: You can tune the hyperparameters of your Random Forest model (e.g., number of estimators, max depth, etc.) using techniques like GridSearchCV or RandomizedSearchCV to find the best combination.
-    Feature Engineering: You may need to create additional features or refine existing ones based on medical knowledge to improve predictive power.
-    Addressing Imbalanced Data: If you have an imbalanced dataset (e.g., rejection events are rare), consider using techniques like SMOTE (Synthetic Minority Over-sampling Technique) or adjusting class weights.
+Hyperparameter Tuning: You can tune the hyperparameters of your Random Forest model (e.g., number of estimators, max depth, etc.) using techniques like GridSearchCV or RandomizedSearchCV to find the best combination.
+Feature Engineering: You may need to create additional features or refine existing ones based on medical knowledge to improve predictive power.
+Addressing Imbalanced Data: If you have an imbalanced dataset (e.g., rejection events are rare), consider using techniques like SMOTE (Synthetic Minority Over-sampling Technique) or adjusting class weights.
+
 
 6. Deployment
 
