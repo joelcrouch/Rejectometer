@@ -75,3 +75,5 @@ API Deployment: Expose your model via a RESTful API (using Flask, FastAPI, etc.)
 Integration with Medical Systems: Integrate the model into clinical workflows for predicting rejection probabilities for new patients.
 
    
+7.  Some challenges to be addressed:
+    The data is disparate and not complete in any one place.  There are multiple databases that contain relevant data, and acquiring data from them as a 'civilian' (read: Not MD/PI/University/etc)  is challenging.  We need to have a hypothesis, a model, what data do we need, a clear procedure for HIPAA (hippa?), and a bunch of forms to fill out.  The different databases we might be interested in might be from UNOS, SRTR, USRDS, NIS, SID, and other more proprietary databases. (read: insurance, pharmaceuticals, etc)  So the first step is getting some data.  Maybe crawl through some articles, and see if there are any linked databases that are public.   (ref: https://pmc.ncbi.nlm.nih.gov/articles/PMC4387865/)
